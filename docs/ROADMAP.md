@@ -12,9 +12,9 @@ Avaliação honesta: o jogo hoje é um protótipo técnico. Mundo e ferramentas 
 - [ ] CI simples: `godot --headless --import` falha o build em erro de parse.
 
 ## Fase 2 — Visual (maior alavanca)
-- [ ] Modelos reais via Mixar (imagem → 3D → glb): ipê amarelo/roxo, palmeira, jabuticabeira, 4 casas coloniais, capivara, personagem e NPCs, barraca, móveis.
+- [ ] Modelos reais via Mixar (imagem → 3D em qualidade média/alta → glb, malha suave): ipê amarelo/roxo, palmeira, jabuticabeira, 4 casas coloniais, capivara, personagem e NPCs, barraca, móveis.
 - [ ] Personagem rigado com animações (idle, andar, correr, cortar, pescar, sentar).
-- [ ] Paleta de cores e estilo único (toon suave, contorno), terreno com bordas arredondadas e texturas.
+- [ ] Paleta de cores e estilo único (acabamento suave estilo Dinkum/Pokopia: normais suaves, bevels, AO, bloom leve; sem facetado), terreno com bordas arredondadas e texturas.
 - [ ] Água, grama e céu revisados; partículas de pétalas, vagalumes, luzes de janela à noite.
 - [ ] Ícones de item desenhados (hoje são quadrados coloridos); UI com identidade (papel kraft, azulejo).
 

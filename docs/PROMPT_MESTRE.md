@@ -1,4 +1,4 @@
-> **Documento-fonte (visão completa do jogo).** Onde aparece "Blender" / "Blender MCP", leia **Mixar** (decisão do dono do projeto: modelos 3D saem do Mixar). Esta é a meta de longo prazo; o escopo atual está em `docs/ROADMAP.md` e o resumo da visão em `docs/VISAO.md`.
+> **Documento-fonte (visão completa do jogo).** Onde aparece "Blender" / "Blender MCP", leia **Mixar** (decisão do dono do projeto: modelos 3D saem do Mixar). **Correção de estilo:** onde o texto diz "low-poly", entenda 3D estilizado suave e polido (acabamento de Dinkum, Go-Go Town e Pokopia), com orçamentos de polígonos maiores; ver `docs/VISAO.md`. Esta é a meta de longo prazo; o escopo atual está em `docs/ROADMAP.md` e o resumo da visão em `docs/VISAO.md`.
 
 # PROMPT MESTRE — "VILA IPÊ": jogo completo de vida, construção, exploração e aventura com temática e folclore brasileiros (execução one-shot)
 
