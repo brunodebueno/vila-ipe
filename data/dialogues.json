@@ -1,0 +1,158 @@
+{
+ "dona_cida": {
+  "manha": [
+   "Bom dia, meu bem! Já tomou seu café? A vila não anda sem gente alimentada.",
+   "Oxente, que sol bonito hoje, viu? Vai aproveitar pra plantar uns ipês?",
+   "Meu bem, vem aqui que eu quero te contar as novidades da prefeitura."
+  ],
+  "tarde": [
+   "Tudo bem por aí, meu bem? Essa tarde tá um breu de calor, hein.",
+   "Olha, se precisar de uma mãozinha com a vila, é só perguntar, meu filho.",
+   "Eu adoro ver a vila crescendo assim, dá até saudade de São Paulo... mentira, aqui é melhor!"
+  ],
+  "noite": [
+   "Já tá tarde, meu bem, vai descansar que amanhã tem trabalho.",
+   "Essa noite tá uma gracinha, dá pra ver as estrelas direitinho.",
+   "Durma bem, viu? A vila agradece sua dedicação."
+  ],
+  "chuva": [
+   "Ô chuvinha camarada! Boa pra regar os ipês, meu bem.",
+   "Não esquece o guarda-chuva, que aqui na Ilha do Ipê a chuva vem sem avisar."
+  ],
+  "amizade_alta": [
+   "Sabe que você já é praticamente da família, meu bem? Que orgulho de prefeita eu tô.",
+   "Vou te contar um segredo: você é o melhor fundador que essa vila já teve."
+  ],
+  "ambiente": [
+   "Meu bem, vem cá que eu quero te mostrar uma coisa!",
+   "A Ilha do Ipê agradece cada tijolo que você põe.",
+   "Nossa, como esse lugar ficou bonito desde que você chegou!"
+  ],
+  "quest_chegada_1": [
+   "Ah, finalmente chegou! Eu sou Dona Cida, prefeita dessa vila... bom, do que resta dela, meu bem.",
+   "Convoquei você porque a Ilha do Ipê precisa de alguém de coragem pra refundar tudo isso aqui.",
+   "Vamos começar simples: olha pra essa terra e imagina o que ela pode ser. Topa a missão?"
+  ],
+  "quest_chegada_1_choices": [
+   {"text": "Topo, Dona Cida! Vamos refundar essa vila.", "reply": "Essa é a resposta que eu queria ouvir, meu bem! Agora vai lá, comece plantando uns ipês pra alegrar esse chão."},
+   {"text": "Calma, me explica melhor essa história.", "reply": "Explico com o tempo, meu bem. Por agora, confia em mim e põe a mão na terra."}
+  ],
+  "quest_chegada_2": ["Esses ipês vão deixar tudo mais bonito, meu bem. Planta uns três pra começar."],
+  "quest_chegada_3": ["Agora precisamos de madeira, meu filho. Derruba uma árvore e junta uns cinco troncos."],
+  "quest_chegada_4": ["Com essa madeira, bora fazer um banquinho de praça. O povo gosta de sentar e conversar."],
+  "quest_chegada_5": ["Vamos testar sua paciência agora: pega a vara e pesca um peixinho pra nós."],
+  "quest_chegada_6": ["Agora é hora de girar a economia! Vende alguma coisa ou junta umas moedinhas."],
+  "quest_chegada_7": ["Chegou a hora, meu bem! Construa a primeira casa dessa vila. É o maior passo até agora."]
+ },
+ "pedrinho": {
+  "manha": [
+   "Oi! Bom dia! Vem, vem, hoje eu vi um besouro gigante perto do rio!",
+   "Dormi pensando em borboletas, sério! Já pegou alguma hoje?"
+  ],
+  "tarde": [
+   "Olha essa formiga, ó! Será que ela carrega mais que o peso dela mesma?",
+   "Tô cansado de correr atrás de inseto, mas vale a pena demais!"
+  ],
+  "noite": [
+   "De noite os vaga-lumes ficam lindos, parece uma festa de luzinha.",
+   "Vou dormir, mas amanhã a caçada continua!"
+  ],
+  "chuva": [
+   "Ô chuva chata, os bichinhos todos se escondem quando chove!"
+  ],
+  "amizade_alta": [
+   "Você é o melhor amigo caçador de bicho que eu já tive, sério!",
+   "Posso te mostrar minha coleção secreta de insetos? Só pra você!"
+  ],
+  "ambiente": [
+   "Psiu! Fica quieto que tem uma borboleta ali!",
+   "Coleciono tudo: besouro, borboleta, vaga-lume... um dia quero um aquário de bichinho!",
+   "Será que existe inseto do tamanho de uma casa? Eu queria ver um!"
+  ],
+  "quest_pedrinho_1": [
+   "Ei, ei! Você tem cara de gente boa com rede na mão. Me ajuda a pegar 2 borboletas?",
+   "Prometo que divido a emoção com você, hihi!"
+  ],
+  "quest_pedrinho_1_choices": [
+   {"text": "Pode contar comigo, Pedrinho!", "reply": "Oba! Vai lá com o puçá, as borboletas gostam de flor de ipê!"},
+   {"text": "Borboleta é difícil de pegar, sabia?", "reply": "Eu sei, mas por isso é divertido! Tenta, tenta!"}
+  ]
+ },
+ "seu_ze": {
+  "manha": ["Bom dia.", "Forja já tá quente."],
+  "tarde": ["Trabalho bem, falo pouco.", "Pedra boa, martelo bom, dia bom."],
+  "noite": ["Hora de descansar o braço.", "Amanhã mais ferro."],
+  "chuva": ["Chuva não para forja."],
+  "amizade_alta": ["Você é gente fina. Conto com você.", "Poucas palavras, mas muita confiança."],
+  "ambiente": [
+   "Hum.",
+   "Ferro bom vem de mão firme.",
+   "Trem bão esse seu machado.",
+   "Trabalho é prece, sabia?",
+   "Minas me ensinou isso: fazer bem feito, sem pressa."
+  ]
+ },
+ "tia_nena": {
+  "manha": [
+   "Ô meu rei, bom dia! Já cheirou minha tapioca assando?",
+   "Vem cá provar meu café, que hoje saiu com axé até!"
+  ],
+  "tarde": [
+   "Esse calor pede água de coco, oxe!",
+   "Tô fazendo um ensopado que vai abrir sua alma, rapaz."
+  ],
+  "noite": [
+   "Hora de fechar a cozinha, mas deixei uma coisinha pra você.",
+   "Boa noite, meu rei, durma com a Bahia no coração."
+  ],
+  "chuva": ["Chuva é hora boa de fazer sopa, sabia?"],
+  "amizade_alta": ["Você já é da família da minha cozinha, pode vir sempre.", "Vou te ensinar a receita secreta da tapioca um dia desses."],
+  "ambiente": [
+   "Dendê, coco, pimenta... segredo é equilíbrio, meu rei.",
+   "Comida boa é amor que a gente pode comer.",
+   "Já pensou em plantar mais jabuticaba pra mim?"
+  ]
+ },
+ "juma": {
+  "manha": [
+   "Bom dia! O rio tá calmo, dia bom pra remar.",
+   "Vi um tucunaré enorme hoje de manhãzinha, maninho!"
+  ],
+  "tarde": [
+   "Esse sol forte lá no Pará também é assim, sabe.",
+   "Remando, remando, nunca enjoa dessa vida de rio."
+  ],
+  "noite": [
+   "De noite o rio vira espelho de estrela, lindo demais.",
+   "Vou amarrar a canoa e descansar, maninho."
+  ],
+  "chuva": ["Chuva de verão no rio é a coisa mais bonita que existe!"],
+  "amizade_alta": ["Você tem sangue de ribeirinho, maninho, dá até gosto de te ensinar a remar.", "Um dia te levo pra ver o encontro das águas."],
+  "ambiente": [
+   "Esse rio me lembra o Tapajós, sabe?",
+   "Prefiro o barco a qualquer estrada, maninho.",
+   "Pesca boa é questão de paciência e respeito com o rio."
+  ]
+ },
+ "mestre_bira": {
+  "manha": [
+   "Axé, meu camarada! Bom dia pra ginga!",
+   "Levanta esse corpo, vem fazer uma roda comigo."
+  ],
+  "tarde": [
+   "Capoeira é luta, dança e conversa, tudo junto!",
+   "Berimbau tá afinado, só falta você pra roda."
+  ],
+  "noite": [
+   "De noite a roda fica ainda mais bonita, com fogo e tudo.",
+   "Descansa esse corpo, amanhã tem ginga de novo."
+  ],
+  "chuva": ["Chuva não impede a roda, só deixa o chão mais escorregadio, cuidado!"],
+  "amizade_alta": ["Você já tem ginga de mestre, meu camarada.", "Um dia te ensino um toque de berimbau."],
+  "ambiente": [
+   "Quem não dança essa dança, não sabe o que tá perdendo!",
+   "Capoeira vem de luta de liberdade, nunca esquece isso.",
+   "Ginga no corpo, malícia na mente, respeito no coração."
+  ]
+ }
+}

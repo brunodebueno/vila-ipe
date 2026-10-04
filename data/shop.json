@@ -1,0 +1,53 @@
+{
+ "categories": [
+  {
+   "name": "Ferramentas",
+   "items": [
+    {"id": "tool_pickaxe", "price": 180},
+    {"id": "tool_net", "price": 60},
+    {"id": "tool_rod", "price": 45}
+   ]
+  },
+  {
+   "name": "Mudas",
+   "items": [
+    {"id": "sapling_ipe", "price": 8},
+    {"id": "sapling_palm", "price": 6}
+   ]
+  },
+  {
+   "name": "Materiais",
+   "items": [
+    {"id": "wood", "price": 4},
+    {"id": "stone", "price": 5},
+    {"id": "fiber", "price": 2},
+    {"id": "clay", "price": 6},
+    {"id": "plank", "price": 9},
+    {"id": "rope", "price": 5},
+    {"id": "tile_roof", "price": 10},
+    {"id": "brick", "price": 9}
+   ]
+  },
+  {
+   "name": "Construções",
+   "items": [
+    {"id": "build_bench", "price": 30},
+    {"id": "build_hammock", "price": 40},
+    {"id": "build_campfire", "price": 20},
+    {"id": "build_lamp", "price": 25},
+    {"id": "build_flags", "price": 15},
+    {"id": "build_fence", "price": 6},
+    {"id": "build_house", "price": 200},
+    {"id": "build_planter", "price": 18},
+    {"id": "build_bromelia", "price": 14},
+    {"id": "build_tall_grass", "price": 4},
+    {"id": "build_pond_stone", "price": 8},
+    {"id": "build_torch", "price": 12},
+    {"id": "build_sign", "price": 16},
+    {"id": "build_flowerbox", "price": 14},
+    {"id": "build_scarecrow", "price": 22},
+    {"id": "build_well", "price": 90}
+   ]
+  }
+ ]
+}

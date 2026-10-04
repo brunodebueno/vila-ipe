@@ -1,0 +1,64 @@
+{
+ "items": [
+  {
+   "id": "tool_pickaxe",
+   "name": "Picareta",
+   "category": "tool",
+   "tool": "pickaxe",
+   "stack": 1,
+   "price": 0,
+   "color": "#8a8a92",
+   "desc": "Quebra pedras. Rende pedra e, às vezes, argila."
+  },
+  {
+   "id": "sapling_fruit_jabuticaba",
+   "name": "Muda de Jabuticabeira",
+   "category": "seed",
+   "tool": "plant_fruit_jabuticaba",
+   "stack": 99,
+   "price": 10,
+   "color": "#4a1a4a",
+   "desc": "Plante uma jabuticabeira."
+  },
+  {
+   "id": "sapling_fruit_caju",
+   "name": "Muda de Cajueiro",
+   "category": "seed",
+   "tool": "plant_fruit_caju",
+   "stack": 99,
+   "price": 10,
+   "color": "#f28a2e",
+   "desc": "Plante um cajueiro."
+  },
+  {
+   "id": "sapling_fruit_pitanga",
+   "name": "Muda de Pitangueira",
+   "category": "seed",
+   "tool": "plant_fruit_pitanga",
+   "stack": 99,
+   "price": 8,
+   "color": "#d6281e",
+   "desc": "Plante uma pitangueira."
+  },
+  {
+   "id": "castanha_caju",
+   "name": "Castanha de Caju",
+   "category": "food",
+   "tool": "",
+   "stack": 99,
+   "price": 9,
+   "color": "#d9a95a",
+   "desc": "Torradinha, boa pra lanche."
+  },
+  {
+   "id": "cogumelo",
+   "name": "Cogumelo",
+   "category": "food",
+   "tool": "",
+   "stack": 99,
+   "price": 5,
+   "color": "#e0d0b0",
+   "desc": "Achado na sombra das árvores."
+  }
+ ]
+}

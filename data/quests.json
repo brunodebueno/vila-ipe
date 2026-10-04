@@ -1,0 +1,117 @@
+{
+ "chains": [
+  {
+   "id": "chegada",
+   "name": "A Chegada à Ilha do Ipê",
+   "npc": "dona_cida",
+   "steps": [
+    {
+     "id": "falar_cida",
+     "title": "Converse com Dona Cida",
+     "desc": "Vá até a prefeita e converse com ela.",
+     "objective": {"type": "talk", "npc": "dona_cida"},
+     "reward": {"coins": 10}
+    },
+    {
+     "id": "plantar_ipes",
+     "title": "Plante 3 mudas de ipê",
+     "desc": "Use a Muda de Ipê (tecla 1-8) perto do chão livre.",
+     "objective": {"type": "stat_delta", "stat": "trees_planted", "amount": 3},
+     "reward": {"coins": 15}
+    },
+    {
+     "id": "coletar_madeira",
+     "title": "Derrube uma árvore e colete 5 madeiras",
+     "desc": "Use o machado numa árvore.",
+     "objective": {"type": "item_delta", "item": "wood", "amount": 5},
+     "reward": {"coins": 15, "items": [{"id": "wood", "amount": 4}]}
+    },
+    {
+     "id": "construir_banco",
+     "title": "Construa um banco de praça",
+     "desc": "Abra o modo construção (B) com o martelo e coloque um Banco de Praça.",
+     "objective": {"type": "structure", "structure": "build_bench"},
+     "reward": {"coins": 20}
+    },
+    {
+     "id": "pescar_peixe",
+     "title": "Pesque um peixe",
+     "desc": "Use a vara de pescar perto da água.",
+     "objective": {"type": "stat_delta", "stat": "fish_caught", "amount": 1},
+     "reward": {"coins": 20}
+    },
+    {
+     "id": "vender_ou_ganhar",
+     "title": "Venda algo na feira ou junte 50 moedas",
+     "desc": "Venda um item na feira, ou simplesmente acumule 50 moedas.",
+     "objective": {"type": "any_of", "options": [
+      {"type": "stat_delta", "stat": "items_sold", "amount": 1},
+      {"type": "coins_reach", "amount": 50}
+     ]},
+     "reward": {"coins": 25, "flags": ["recipe_tapioca"]}
+    },
+    {
+     "id": "construir_casa",
+     "title": "Construa a primeira casa",
+     "desc": "Junte madeira/tijolo e construa uma Casa Colonial.",
+     "objective": {"type": "stat_delta", "stat": "houses_built", "amount": 1},
+     "reward": {"coins": 40, "items": [{"id": "sapling_ipe", "amount": 3}]}
+    }
+   ]
+  },
+  {
+   "id": "pedrinho_borboletas",
+   "name": "Coleção do Pedrinho",
+   "npc": "pedrinho",
+   "steps": [
+    {
+     "id": "pegar_borboletas",
+     "title": "Capture 2 borboletas",
+     "desc": "Use o puçá perto de flores.",
+     "objective": {"type": "item_delta", "item": "bug_morpho", "amount": 2},
+     "reward": {"coins": 20, "items": [{"id": "fiber", "amount": 3}]}
+    }
+   ]
+  }
+ ],
+ "daily_pool": [
+  {
+   "id": "diaria_madeira",
+   "title": "Pedido do quadro: 5 madeiras",
+   "desc": "A vila precisa de madeira pra manutenção.",
+   "objective": {"type": "item_delta", "item": "wood", "amount": 5},
+   "reward": {"coins": 12}
+  },
+  {
+   "id": "diaria_peixe",
+   "title": "Pedido do quadro: 2 peixes",
+   "desc": "Alguém encomendou peixe fresco.",
+   "objective": {"type": "stat_delta", "stat": "fish_caught", "amount": 2},
+   "reward": {"coins": 18}
+  },
+  {
+   "id": "diaria_flor",
+   "title": "Pedido do quadro: 3 flores de ipê",
+   "desc": "Decoração pra feira.",
+   "objective": {"type": "item_delta", "item": "flower_ipe", "amount": 3},
+   "reward": {"coins": 10}
+  },
+  {
+   "id": "diaria_bicho",
+   "title": "Pedido do quadro: 1 inseto",
+   "desc": "Pedrinho quer mais um bichinho pra coleção.",
+   "objective": {"type": "any_of", "options": [
+    {"type": "item_delta", "item": "bug_morpho", "amount": 1},
+    {"type": "item_delta", "item": "bug_firefly", "amount": 1}
+   ]},
+   "reward": {"coins": 14}
+  },
+  {
+   "id": "diaria_terreno",
+   "title": "Pedido do quadro: mexer no terreno",
+   "desc": "Melhore um pedacinho da vila.",
+   "objective": {"type": "event_count", "event": "terrain_edited", "amount": 5},
+   "reward": {"coins": 8}
+  }
+ ]
+}

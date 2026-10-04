@@ -1,0 +1,384 @@
+{
+ "items": [
+  {
+   "id": "tool_axe",
+   "name": "Machado",
+   "category": "tool",
+   "tool": "axe",
+   "stack": 1,
+   "price": 0,
+   "color": "#c9c9d1",
+   "desc": "Derruba árvores e rende madeira."
+  },
+  {
+   "id": "tool_raise",
+   "name": "Enxada de Terra",
+   "category": "tool",
+   "tool": "terraform_raise",
+   "stack": 1,
+   "price": 0,
+   "color": "#b0683a",
+   "desc": "Sobe o terreno. Clique e segure."
+  },
+  {
+   "id": "tool_lower",
+   "name": "Pá",
+   "category": "tool",
+   "tool": "terraform_lower",
+   "stack": 1,
+   "price": 0,
+   "color": "#7a4d2a",
+   "desc": "Cava o terreno. Faça lagos!"
+  },
+  {
+   "id": "tool_flatten",
+   "name": "Rastelo",
+   "category": "tool",
+   "tool": "terraform_flatten",
+   "stack": 1,
+   "price": 0,
+   "color": "#c9a24a",
+   "desc": "Nivela tudo na altura em que você clicou."
+  },
+  {
+   "id": "tool_path",
+   "name": "Pá de Calçada",
+   "category": "tool",
+   "tool": "terraform_path",
+   "stack": 1,
+   "price": 0,
+   "color": "#d3cbb8",
+   "desc": "Pavimenta caminhos."
+  },
+  {
+   "id": "tool_grass",
+   "name": "Saco de Grama",
+   "category": "tool",
+   "tool": "terraform_grass",
+   "stack": 1,
+   "price": 0,
+   "color": "#6dbf4f",
+   "desc": "Cobre o chão com grama."
+  },
+  {
+   "id": "tool_hammer",
+   "name": "Martelo",
+   "category": "tool",
+   "tool": "build",
+   "stack": 1,
+   "price": 0,
+   "color": "#e0a040",
+   "desc": "Abre o modo construção."
+  },
+  {
+   "id": "tool_rod",
+   "name": "Vara de Pescar",
+   "category": "tool",
+   "tool": "fishing",
+   "stack": 1,
+   "price": 0,
+   "color": "#8bd0e8",
+   "desc": "Pesque na água. Clique perto da margem."
+  },
+  {
+   "id": "tool_net",
+   "name": "Puçá",
+   "category": "tool",
+   "tool": "net",
+   "stack": 1,
+   "price": 0,
+   "color": "#e8e0a0",
+   "desc": "Captura borboletas e vaga-lumes."
+  },
+  {
+   "id": "sapling_ipe",
+   "name": "Muda de Ipê",
+   "category": "seed",
+   "tool": "plant",
+   "stack": 99,
+   "price": 8,
+   "color": "#ffc928",
+   "desc": "Plante um ipê florido."
+  },
+  {
+   "id": "sapling_palm",
+   "name": "Muda de Palmeira",
+   "category": "seed",
+   "tool": "plant_palm",
+   "stack": 99,
+   "price": 6,
+   "color": "#3aa04f",
+   "desc": "Plante uma palmeira."
+  },
+  {
+   "id": "wood",
+   "name": "Madeira",
+   "category": "resource",
+   "tool": "",
+   "stack": 99,
+   "price": 4,
+   "color": "#a0693a",
+   "desc": "Tábuas e troncos."
+  },
+  {
+   "id": "stone",
+   "name": "Pedra",
+   "category": "resource",
+   "tool": "",
+   "stack": 99,
+   "price": 5,
+   "color": "#9a9aa2",
+   "desc": "Pedra bruta."
+  },
+  {
+   "id": "fiber",
+   "name": "Fibra",
+   "category": "resource",
+   "tool": "",
+   "stack": 99,
+   "price": 2,
+   "color": "#b9c97a",
+   "desc": "Capim trançável."
+  },
+  {
+   "id": "clay",
+   "name": "Argila",
+   "category": "resource",
+   "tool": "",
+   "stack": 99,
+   "price": 6,
+   "color": "#c0653a",
+   "desc": "Para telhas e potes."
+  },
+  {
+   "id": "tile_roof",
+   "name": "Telha",
+   "category": "resource",
+   "tool": "",
+   "stack": 99,
+   "price": 10,
+   "color": "#c4623a",
+   "desc": "Telha de barro."
+  },
+  {
+   "id": "brick",
+   "name": "Tijolo",
+   "category": "resource",
+   "tool": "",
+   "stack": 99,
+   "price": 9,
+   "color": "#b04a32",
+   "desc": "Tijolo cozido."
+  },
+  {
+   "id": "flower_ipe",
+   "name": "Flor de Ipê",
+   "category": "resource",
+   "tool": "",
+   "stack": 99,
+   "price": 12,
+   "color": "#ffd84a",
+   "desc": "Pétalas amarelas."
+  },
+  {
+   "id": "fruit_jabuticaba",
+   "name": "Jabuticaba",
+   "category": "food",
+   "tool": "",
+   "stack": 99,
+   "price": 8,
+   "color": "#4a1a4a",
+   "desc": "Doce e roxinha."
+  },
+  {
+   "id": "fruit_caju",
+   "name": "Caju",
+   "category": "food",
+   "tool": "",
+   "stack": 99,
+   "price": 10,
+   "color": "#f28a2e",
+   "desc": "Fruta e castanha."
+  },
+  {
+   "id": "fruit_pitanga",
+   "name": "Pitanga",
+   "category": "food",
+   "tool": "",
+   "stack": 99,
+   "price": 6,
+   "color": "#d6281e",
+   "desc": "Azedinha."
+  },
+  {
+   "id": "fish_tilapia",
+   "name": "Tilápia",
+   "category": "fish",
+   "tool": "",
+   "stack": 99,
+   "price": 14,
+   "color": "#9ab5c4",
+   "desc": "Peixe de rio."
+  },
+  {
+   "id": "fish_tucunare",
+   "name": "Tucunaré",
+   "category": "fish",
+   "tool": "",
+   "stack": 99,
+   "price": 30,
+   "color": "#e0a030",
+   "desc": "Peixe valioso."
+  },
+  {
+   "id": "fish_pirarucu",
+   "name": "Pirarucu",
+   "category": "fish",
+   "tool": "",
+   "stack": 99,
+   "price": 80,
+   "color": "#c04a4a",
+   "desc": "Gigante do rio."
+  },
+  {
+   "id": "bug_morpho",
+   "name": "Borboleta Morpho",
+   "category": "bug",
+   "tool": "",
+   "stack": 99,
+   "price": 40,
+   "color": "#2f7fff",
+   "desc": "Azul metálico."
+  },
+  {
+   "id": "bug_firefly",
+   "name": "Vaga-lume",
+   "category": "bug",
+   "tool": "",
+   "stack": 99,
+   "price": 20,
+   "color": "#d8ff6a",
+   "desc": "Pisca à noite."
+  },
+  {
+   "id": "meal_tapioca",
+   "name": "Tapioca",
+   "category": "food",
+   "tool": "",
+   "stack": 99,
+   "price": 25,
+   "color": "#f5ead0",
+   "desc": "Receita de goma."
+  },
+  {
+   "id": "build_bench",
+   "name": "Banco de Praça",
+   "category": "placeable",
+   "tool": "bench",
+   "stack": 99,
+   "price": 30,
+   "color": "#8a5a35",
+   "desc": "Para sentar com a vista."
+  },
+  {
+   "id": "build_hammock",
+   "name": "Rede de Dormir",
+   "category": "placeable",
+   "tool": "hammock",
+   "stack": 99,
+   "price": 40,
+   "color": "#e8584a",
+   "desc": "Descanse e passe o tempo."
+  },
+  {
+   "id": "build_campfire",
+   "name": "Fogueira",
+   "category": "placeable",
+   "tool": "campfire",
+   "stack": 99,
+   "price": 20,
+   "color": "#f28a2e",
+   "desc": "Aquece e ilumina."
+  },
+  {
+   "id": "build_lamp",
+   "name": "Poste de Luz",
+   "category": "placeable",
+   "tool": "lamp",
+   "stack": 99,
+   "price": 25,
+   "color": "#ffe27a",
+   "desc": "Acende à noite."
+  },
+  {
+   "id": "build_flags",
+   "name": "Bandeirinhas",
+   "category": "placeable",
+   "tool": "flags",
+   "stack": 99,
+   "price": 15,
+   "color": "#ff5a5a",
+   "desc": "Clima de festa junina."
+  },
+  {
+   "id": "build_fence",
+   "name": "Cerca",
+   "category": "placeable",
+   "tool": "fence",
+   "stack": 99,
+   "price": 6,
+   "color": "#a0693a",
+   "desc": "Cerca de madeira."
+  },
+  {
+   "id": "build_house",
+   "name": "Casa Colonial",
+   "category": "placeable",
+   "tool": "house",
+   "stack": 99,
+   "price": 200,
+   "color": "#7fb8e0",
+   "desc": "Moradia para um habitante."
+  },
+  {
+   "id": "build_planter",
+   "name": "Canteiro",
+   "category": "placeable",
+   "tool": "planter",
+   "stack": 99,
+   "price": 18,
+   "color": "#6b4226",
+   "desc": "Flores e ervas."
+  },
+  {
+   "id": "build_bromelia",
+   "name": "Bromélia",
+   "category": "placeable",
+   "tool": "bromelia",
+   "stack": 99,
+   "price": 14,
+   "color": "#e84a6a",
+   "desc": "Planta de jardim."
+  },
+  {
+   "id": "build_tall_grass",
+   "name": "Capim Alto",
+   "category": "placeable",
+   "tool": "tall_grass",
+   "stack": 99,
+   "price": 4,
+   "color": "#8fd05a",
+   "desc": "Habitat de bichos."
+  },
+  {
+   "id": "build_pond_stone",
+   "name": "Pedra de Lago",
+   "category": "placeable",
+   "tool": "pond_stone",
+   "stack": 99,
+   "price": 8,
+   "color": "#8aa0a8",
+   "desc": "Decoração aquática."
+  }
+ ]
+}

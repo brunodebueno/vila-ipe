@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b3vilaipemenu"]
+
+[ext_resource type="Script" path="res://scripts/system/main_menu.gd" id="1_menu"]
+
+[node name="MainMenu" type="Node3D"]
+script = ExtResource("1_menu")

@@ -1,0 +1,30 @@
+{
+ "recipes": [
+  {"id": "craft_plank", "result": "plank", "amount": 2, "ingredients": {"wood": 2}, "station": "bench", "portable": true},
+  {"id": "craft_rope", "result": "rope", "amount": 2, "ingredients": {"fiber": 3}, "station": "bench", "portable": true},
+  {"id": "craft_fence", "result": "build_fence", "amount": 1, "ingredients": {"plank": 2}, "station": "bench", "portable": true},
+  {"id": "craft_bench", "result": "build_bench", "amount": 1, "ingredients": {"plank": 4, "stone": 1}, "station": "bench", "portable": false},
+  {"id": "craft_lamp", "result": "build_lamp", "amount": 1, "ingredients": {"plank": 2, "stone": 2, "fiber": 1}, "station": "bench", "portable": false},
+  {"id": "craft_campfire", "result": "build_campfire", "amount": 1, "ingredients": {"stone": 4, "wood": 2}, "station": "bench", "portable": false},
+  {"id": "craft_hammock", "result": "build_hammock", "amount": 1, "ingredients": {"fiber": 5, "wood": 2}, "station": "bench", "portable": false},
+  {"id": "craft_flags", "result": "build_flags", "amount": 1, "ingredients": {"fiber": 3}, "station": "bench", "portable": true},
+  {"id": "craft_planter", "result": "build_planter", "amount": 1, "ingredients": {"plank": 3, "clay": 1}, "station": "bench", "portable": false},
+  {"id": "craft_bromelia", "result": "build_bromelia", "amount": 1, "ingredients": {"fiber": 2, "clay": 1}, "station": "bench", "portable": true},
+  {"id": "craft_tall_grass", "result": "build_tall_grass", "amount": 1, "ingredients": {"fiber": 1}, "station": "bench", "portable": true},
+  {"id": "craft_pond_stone", "result": "build_pond_stone", "amount": 1, "ingredients": {"stone": 2}, "station": "bench", "portable": true},
+  {"id": "craft_brick", "result": "brick", "amount": 2, "ingredients": {"clay": 2}, "station": "kiln", "portable": false},
+  {"id": "craft_tile_roof", "result": "tile_roof", "amount": 2, "ingredients": {"clay": 3}, "station": "kiln", "portable": false},
+  {"id": "craft_house", "result": "build_house", "amount": 1, "ingredients": {"plank": 20, "brick": 15, "tile_roof": 10}, "station": "bench", "portable": false},
+  {"id": "craft_pickaxe", "result": "tool_pickaxe", "amount": 1, "ingredients": {"wood": 3, "stone": 5}, "station": "bench", "portable": false},
+  {"id": "craft_tapioca", "result": "meal_tapioca", "amount": 1, "ingredients": {"fiber": 3}, "station": "kitchen", "portable": true},
+  {"id": "craft_suco_caju", "result": "meal_suco_caju", "amount": 1, "ingredients": {"fruit_caju": 3}, "station": "kitchen", "portable": true},
+  {"id": "craft_suco_jabuticaba", "result": "meal_suco_jabuticaba", "amount": 1, "ingredients": {"fruit_jabuticaba": 3}, "station": "kitchen", "portable": true},
+  {"id": "craft_sapling_ipe", "result": "sapling_ipe", "amount": 2, "ingredients": {"flower_ipe": 2}, "station": "bench", "portable": true},
+  {"id": "craft_sapling_palm", "result": "sapling_palm", "amount": 2, "ingredients": {"fiber": 2}, "station": "bench", "portable": true},
+  {"id": "craft_torch", "result": "build_torch", "amount": 1, "ingredients": {"wood": 1, "fiber": 1}, "station": "bench", "portable": true},
+  {"id": "craft_sign", "result": "build_sign", "amount": 1, "ingredients": {"plank": 2}, "station": "bench", "portable": true},
+  {"id": "craft_flowerbox", "result": "build_flowerbox", "amount": 1, "ingredients": {"plank": 1, "clay": 1}, "station": "bench", "portable": false},
+  {"id": "craft_scarecrow", "result": "build_scarecrow", "amount": 1, "ingredients": {"plank": 2, "fiber": 2}, "station": "bench", "portable": false, "unlock_flag": "scarecrow_unlocked"},
+  {"id": "craft_well", "result": "build_well", "amount": 1, "ingredients": {"stone": 10, "wood": 4, "brick": 4}, "station": "bench", "portable": false}
+ ]
+}

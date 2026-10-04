@@ -1,0 +1,25 @@
+{
+ "fish": [
+  {
+   "id": "fish_tilapia",
+   "rarity": "comum",
+   "weight": 60,
+   "hours": [0, 24],
+   "min_depth": 0
+  },
+  {
+   "id": "fish_tucunare",
+   "rarity": "incomum",
+   "weight": 30,
+   "hours": [5, 20],
+   "min_depth": 0
+  },
+  {
+   "id": "fish_pirarucu",
+   "rarity": "raro",
+   "weight": 10,
+   "hours": [19, 5],
+   "min_depth": 2
+  }
+ ]
+}

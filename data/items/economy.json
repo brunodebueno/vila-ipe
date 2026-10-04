@@ -1,0 +1,104 @@
+{
+ "items": [
+  {
+   "id": "plank",
+   "name": "Tábua",
+   "category": "resource",
+   "tool": "",
+   "stack": 99,
+   "price": 9,
+   "color": "#c9a06a",
+   "desc": "Madeira serrada, pronta pra construir."
+  },
+  {
+   "id": "rope",
+   "name": "Corda",
+   "category": "resource",
+   "tool": "",
+   "stack": 99,
+   "price": 3,
+   "color": "#cdbd8c",
+   "desc": "Fibra trançada e resistente."
+  },
+  {
+   "id": "tool_pickaxe",
+   "name": "Picareta",
+   "category": "tool",
+   "tool": "pickaxe",
+   "stack": 1,
+   "price": 0,
+   "color": "#9aa0ad",
+   "desc": "Quebra pedras e minérios."
+  },
+  {
+   "id": "meal_suco_caju",
+   "name": "Suco de Caju",
+   "category": "food",
+   "tool": "",
+   "stack": 99,
+   "price": 18,
+   "color": "#f2a23a",
+   "desc": "Suco geladinho de caju."
+  },
+  {
+   "id": "meal_suco_jabuticaba",
+   "name": "Suco de Jabuticaba",
+   "category": "food",
+   "tool": "",
+   "stack": 99,
+   "price": 16,
+   "color": "#7a2f6b",
+   "desc": "Suco roxinho, docinho."
+  },
+  {
+   "id": "build_torch",
+   "name": "Tocha",
+   "category": "placeable",
+   "tool": "torch",
+   "stack": 99,
+   "price": 5,
+   "color": "#ffb347",
+   "desc": "Ilumina um cantinho da vila."
+  },
+  {
+   "id": "build_sign",
+   "name": "Placa de Madeira",
+   "category": "placeable",
+   "tool": "sign",
+   "stack": 99,
+   "price": 10,
+   "color": "#d8c08a",
+   "desc": "Indica o caminho."
+  },
+  {
+   "id": "build_flowerbox",
+   "name": "Jardineira",
+   "category": "placeable",
+   "tool": "flowerbox",
+   "stack": 99,
+   "price": 9,
+   "color": "#8a5a35",
+   "desc": "Jardineira de varanda."
+  },
+  {
+   "id": "build_scarecrow",
+   "name": "Espantalho",
+   "category": "placeable",
+   "tool": "scarecrow",
+   "stack": 99,
+   "price": 22,
+   "color": "#d9b36a",
+   "desc": "Espantalho de pano e palha."
+  },
+  {
+   "id": "build_well",
+   "name": "Poço",
+   "category": "placeable",
+   "tool": "well",
+   "stack": 99,
+   "price": 90,
+   "color": "#8a8a8a",
+   "desc": "Poço de pedra da vila."
+  }
+ ]
+}
