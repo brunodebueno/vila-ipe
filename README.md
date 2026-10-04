@@ -13,6 +13,11 @@ godot --path .
 
 Foto automática (QA): `godot --path . -- --shot` (salva em `user://` e fecha).
 
+## Documentação
+- `docs/VISAO.md` — a ideia do jogo, direção de arte e de UI (o alvo)
+- `docs/ROADMAP.md` — plano · `docs/PROGRESSO.md` — o que existe hoje
+- `docs/ARQUITETURA.md` — como o código se organiza · `docs/PROMPT_MESTRE.md` — visão completa original
+
 ## Controles
 | Ação | Tecla |
 |---|---|

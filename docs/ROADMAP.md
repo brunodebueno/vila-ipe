@@ -1,5 +1,7 @@
 # Roadmap
 
+A aparência-alvo (personagens fofos, UI de papel kraft/azulejo, mundo estilizado) está descrita em `docs/VISAO.md`.
+
 Avaliação honesta: o jogo hoje é um protótipo técnico. Mundo e ferramentas funcionam, mas **o visual é feio** (bonecos e casas de caixas, sem animação), há pouco conteúdo e nada foi balanceado. A prioridade é **aparência e "sensação boa"** antes de mais sistemas.
 
 ## Fase 1 — Fazer rodar bem (curto prazo)
